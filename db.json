@@ -1,0 +1,164 @@
+{
+    "products":[
+    {
+        "id": 1,
+        "name": "Blogpad",
+        "price": 70,
+        "category": "skincare",
+        "imageUrl": "https://via.placeholder.com/100",
+        "company": "Wunsch-O'Hara"
+    },
+    {
+        "id": 2,
+        "name": "Minyx",
+        "price": 84,
+        "category": "skincare",
+        "imageUrl": "https://via.placeholder.com/100",
+        "company": "Berge, Erdman and Haley"
+    },
+    {
+        "id": 3,
+        "name": "Ozu",
+        "price": 477,
+        "category": "skincare",
+        "imageUrl": "https://via.placeholder.com/100",
+        "company": "Bahringer and Sons"
+    },
+    {
+        "id": 4,
+        "name": "Jabbersphere",
+        "price": 148,
+        "category": "makeup",
+        "imageUrl": "https://via.placeholder.com/100",
+        "company": "Green and Sons"
+    },
+    {
+        "id": 5,
+        "name": "Oyoba",
+        "price": 428,
+        "category": "skincare",
+        "imageUrl": "https://via.placeholder.com/100",
+        "company": "Rice Inc"
+    },
+    {
+        "id": 6,
+        "name": "Kayveo",
+        "price": 403,
+        "category": "haircare",
+        "imageUrl": "https://via.placeholder.com/100",
+        "company": "Kub, Torphy and Grant"
+    },
+    {
+        "id": 7,
+        "name": "Bubbletube",
+        "price": 321,
+        "category": "haircare",
+        "imageUrl": "https://via.placeholder.com/100",
+        "company": "Marquardt, McGlynn and Breitenberg"
+    },
+    {
+        "id": 8,
+        "name": "Tagcat",
+        "price": 444,
+        "category": "haircare",
+        "imageUrl": "https://via.placeholder.com/100",
+        "company": "Trantow-Schmidt"
+    },
+    {
+        "id": 9,
+        "name": "DabZ",
+        "price": 165,
+        "category": "makeup",
+        "imageUrl": "https://via.placeholder.com/100",
+        "company": "Reilly-Schneider"
+    },
+    {
+        "id": 10,
+        "name": "Zoonoodle",
+        "price": 60,
+        "category": "skincare",
+        "imageUrl": "https://via.placeholder.com/100",
+        "company": "Hansen-Veum"
+    },
+    {
+        "id": 11,
+        "name": "Lajo",
+        "price": 36,
+        "category": "makeup",
+        "imageUrl": "https://via.placeholder.com/100",
+        "company": "Heidenreich Inc"
+    },
+    {
+        "id": 12,
+        "name": "Skalith",
+        "price": 467,
+        "category": "haircare",
+        "imageUrl": "https://via.placeholder.com/100",
+        "company": "Romaguera Inc"
+    },
+    {
+        "id": 13,
+        "name": "Fivebridge",
+        "price": 326,
+        "category": "haircare",
+        "imageUrl": "https://via.placeholder.com/100",
+        "company": "Bauch and Sons"
+    },
+    {
+        "id": 14,
+        "name": "Tavu",
+        "price": 118,
+        "category": "haircare",
+        "imageUrl": "https://via.placeholder.com/100",
+        "company": "Grant, Durgan and Carter"
+    },
+    {
+        "id": 15,
+        "name": "Thoughtbeat",
+        "price": 477,
+        "category": "makeup",
+        "imageUrl": "https://via.placeholder.com/100",
+        "company": "Buckridge-Douglas"
+    },
+    {
+        "id": 16,
+        "name": "Meevee",
+        "price": 66,
+        "category": "haircare",
+        "imageUrl": "https://via.placeholder.com/100",
+        "company": "Koss LLC"
+    },
+    {
+        "id": 17,
+        "name": "Vitz",
+        "price": 205,
+        "category": "haircare",
+        "imageUrl": "https://via.placeholder.com/100",
+        "company": "Graham Group"
+    },
+    {
+        "id": 18,
+        "name": "Fivechat",
+        "price": 235,
+        "category": "haircare",
+        "imageUrl": "https://via.placeholder.com/100",
+        "company": "Lakin, Parker and Prosacco"
+    },
+    {
+        "id": 19,
+        "name": "Dablist",
+        "price": 148,
+        "category": "skincare",
+        "imageUrl": "https://via.placeholder.com/100",
+        "company": "Price Group"
+    },
+    {
+        "id": 20,
+        "name": "Skyvu",
+        "price": 108,
+        "category": "skincare",
+        "imageUrl": "https://via.placeholder.com/100",
+        "company": "Fahey-Gerhold"
+    }
+]
+}

@@ -1,0 +1,16 @@
+<div class="filters">
+  <label for="category">Category:</label>
+  <select id="category" [(ngModel)]="selectedCategory" (ngModelChange)="applyFilters()">
+    <option value="">All</option>
+    <option value="skincare">Skincare</option>
+    <option value="makeup">Makeup</option>
+    <option value="haircare">Hair Care</option>
+  </select>
+  <label for="priceRange">Price Range:</label>
+  <select id="priceRange" [(ngModel)]="selectedPriceRange" (ngModelChange)="applyFilters()">
+    <option value="">Any</option>
+    <option value="0-20">0 - 20</option>
+    <option value="20-50">20 - 50</option>
+    <option value="50-200">50 - 200</option>
+  </select>
+</div>

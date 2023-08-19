@@ -1,0 +1,36 @@
+<div class="row">
+  <app-filters-sorting (filtersChanged)="updateFilters($event)"></app-filters-sorting>
+  <div class="card">
+    <div class="col-md-12 mb-3" style="margin-top: 10px;">
+      <input (input)="search($event)" id="name" placeholder="Search" />
+      <ngx-datatable class="material container striped" [rows]="rows" [columnMode]="'flex'" [headerHeight]="50"
+        [footerHeight]="50" rowHeight="auto" [limit]="10" [offset]="0">
+        <ngx-datatable-column name="Image" [sortable]="true" prop="imageUrl" [flexGrow]="2">
+          <ng-template ngx-datatable-cell-template let-row="row" let-value="value">
+            <img src="{{ value }}" alt="product image">
+          </ng-template>
+        </ngx-datatable-column>
+        <ngx-datatable-column name="Name" [sortable]="true" prop="name" [flexGrow]="2">
+          <ng-template ngx-datatable-cell-template let-value="value" let-row="row">
+            <div class="productInfo">
+              {{ value }}
+            </div>
+            <div class="hide">
+              <li>Company : {{ row.company }}</li>
+            </div>
+          </ng-template>
+        </ngx-datatable-column>
+        <ngx-datatable-column name="Price" prop="price" [flexGrow]="2">
+          <ng-template ngx-datatable-cell-template let-value="value" let-row="row">
+            {{ value | currency: 'INR' }}
+          </ng-template>
+        </ngx-datatable-column>
+        <ngx-datatable-column name="Action" [flexGrow]="2" [sortable]="false">
+          <ng-template ngx-datatable-cell-template let-row="row">
+            <button class="btn btn-info">Add to cart</button>
+          </ng-template>
+        </ngx-datatable-column>
+      </ngx-datatable>
+    </div>
+  </div>
+</div>
